@@ -46,12 +46,59 @@
                     items: 2,
                     nav: false,
                 },
-                1000: {
+                2000: {
                     items: 3,
                     nav: false,
                 },
             }
         });
     </script>
+
+    <div class="container">
+        <nav class="topBar">
+            <a href="#">Best Items</a>
+            <a href="#">|</a>
+            <a href="#">Introduce you the best items.</a>
+            <a href="#">FURNITURE</a>
+            <a href="#">FABRIC</a>
+            <a href="#">HOME DECO</a>
+        </nav>
+    </div>
+
+    <div class="bestWrapContainer">
+        <div class="bestWrapper">
+            <div class="bestCarousel owl-carousel" >
+                <div class="bestCard bestCard-1">&#8203;</div>
+                <div class="bestCard bestCard-2">&#8203;</div>
+                <div class="bestCard bestCard-3">&#8203;</div>
+                <div class="bestCard bestCard-4">&#8203;</div>
+                <div class="bestCard bestCard-5">&#8203;</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".bestCarousel").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                },
+                600: {
+                    items: 3,
+                    nav: false,
+                },
+                2000: {
+                    items: 5,
+                    nav: false,
+                },
+            }
+        });
+    </script>
+
+    <div class="spacer"></div>
 </body>
 </html>
